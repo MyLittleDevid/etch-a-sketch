@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-a-sketch</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <p>Etch-a-sketch</p>
+    </header>
+    <div class="main">
+        <div class="buttons">
+            <button onclick="limpiar()">Limpiar</button> <br>
+            <button>Lienzo nuevo</button> <br>
+            <input type="range" min="4" max="16" step="1"> <span class="range-value">valor del selector</span>
+
+            <div class="colors">
+                <fieldset name="color-options">
+                    <p>Selector de colores</p>
+                    <label><input type="radio" name="color" checked value="blue">Azul</label> <br>
+                    <label><input type="radio" name="color" value="red">Uno random</label> <br>
+                    <label><input type="radio" name="color" value="green"> Cada vez mas negro</label> <br>
+                </fieldset>
+            </div>
+        </div>
+        <div class="canvas">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div>7</div>
+            <div>8</div>
+            <div>9</div>
+            <div>10</div>
+            <div>11</div>
+            <div>12</div>
+            <div>13</div>
+            <div>14</div>
+            <div>15</div>
+            <div>16</div>
+        </div>
+    </div>
+</body>
+</html>
